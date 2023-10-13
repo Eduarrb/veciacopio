@@ -53,8 +53,8 @@ ol {
   border-radius: 0.5rem;
 }
 .main__imgBox {
-  width: 15rem;
-  height: 15rem;
+  width: 18rem;
+  height: 18rem;
   border-radius: 50%;
 }
 .main__imgBox img {
@@ -103,6 +103,45 @@ ol {
   margin-left: auto;
   margin-right: auto;
   padding: 2rem;
+}
+.code__main {
+  height: calc(100% - 8rem);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.code__titulo {
+  font-family: "Roboto Condensed", sans-serif;
+  font-size: 1.8rem;
+  text-align: center;
+  margin: 2rem 0;
+  padding: 0 2rem;
+  line-height: 3rem;
+}
+.code__form {
+  display: flex;
+  flex-direction: column;
+  row-gap: 1.5rem;
+}
+.code__form input[type=text] {
+  outline: 0;
+  font-size: 2rem;
+  border: 1px solid #8e44ad;
+  border-radius: 1rem;
+  padding: 1rem;
+  font-family: "Roboto Condensed", sans-serif;
+}
+.code__form input[type=submit] {
+  border: none;
+  outline: 0;
+  font-family: "Roboto Condensed", sans-serif;
+  font-size: 1.8rem;
+  text-transform: uppercase;
+  padding: 1rem;
+  font-weight: 700;
+  background-color: #2b213c;
+  color: white;
+  border-radius: 1rem;
 }
 .code__top {
   display: flex;

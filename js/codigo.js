@@ -1,6 +1,6 @@
-const form = document.querySelector(".main__form");
+const form = document.querySelector(".code__form");
 
 form.addEventListener("submit", e => {
     e.preventDefault();
-    window.location.href = "code.html";
+    window.location.href = "proceso.html";
 })
